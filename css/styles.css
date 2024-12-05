@@ -17,19 +17,15 @@ body {
 
 header {
     display: flex;
-
     width: 1140px;
     padding: 12px 80px;
     align-items: center;
     margin: 0 auto;
-
-
 }
 
 nav {
     padding: 20px 40px;
     margin-left: 10%;
-
 }
 
 #logo {
@@ -105,7 +101,7 @@ nav {
 
 #article h1 span {
     color: #ff5dA3;
-   font-family: "Lato", serif;
+    font-family: "Lato", serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 700;
@@ -158,4 +154,71 @@ nav {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+#footer {
+    height: 128px;
+    display: flex;
+    padding: 48px;
+    background-color: #53389E;
+    align-items: center;
+}
+
+#footer section {
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    color: #D6BBFB;
+    margin: 0 auto;
+}
+
+#footer #loop {
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+}
+
+#footer #loop div {
+    width: 32px;
+    height: 32px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+#loop div img {
+    margin: 10px 5px;
+}
+
+#footer #loop p {
+    color: #FFF;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+#footer-nav {
+    width: 540px;
+    display: flex;
+    align-items: center;
+    margin-left: 12%;
+}
+
+#footer-nav li {
+    padding: 20px 20px;
+    align-items: center;
+}
+
+#copy {
+    width: 160px;
+    color: #D6BBFB;
+    text-align: right;
+    font-family: "Lato", serif;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 10%;
+    /* 150% */
 }
